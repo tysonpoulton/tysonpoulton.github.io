@@ -20,8 +20,8 @@ const ParticleBackground = () => {
           loaded={particlesLoaded}
           options={{
             fullScreen: {
-              enable: true,
-              zIndex: -999,
+              enable: false,
+              zIndex: -1,
             },
             background: {
               color: {
@@ -31,24 +31,15 @@ const ParticleBackground = () => {
             fpsLimit: 30,
             interactivity: {
               events: {
-                onClick: {
-                  enable: false,
-                  mode: "repulse",
-                },
                 onHover: {
                   enable: true,
-                  mode: "grab",
-                  
+                  mode: "grab", 
                 },
                 resize: true,
               },
               modes: {
-                repulse: {
-                  distance: 400,
-                  duration: 0.2,
-                },
                 grab: {
-                  distance: 120,
+                  distance: 80,
                   link_linked: {
                       opacity: 1,
                   },
@@ -57,14 +48,14 @@ const ParticleBackground = () => {
             },
             particles: {
               color: {
-                value: "#A1761B",
+                value: "random",
               },
               links: {
-                color: "#FFF",
+                color: "random",
                 distance: 150,
                 enable: true,
-                opacity: 0.5,
-                width: 0.5,
+                opacity: 0.7,
+                width: 1,
               },
               collisions: {
                 enable: false,
@@ -72,17 +63,17 @@ const ParticleBackground = () => {
               move: {
                 direction: "none",
                 enable: true,
-                outMode: "out",
+                outMode: "bounce",
                 random: false,
-                speed: 1,
+                speed: 2,
                 straight: false,
               },
               number: {
                 density: {
-                  enable: true,
+                  enable: false,
                   value_area: 800,
                 },
-                value: 80,
+                value: 120,
               },
               opacity: {
                 value: 0.7,
@@ -92,7 +83,7 @@ const ParticleBackground = () => {
               },
               size: {
                 random: false,
-                value: 2,
+                value: 3,
               },
             },
             detectRetina: false,
