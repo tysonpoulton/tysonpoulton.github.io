@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Intro from './sections/Intro'
+import About from './sections/About'
+import CategoryContextProvider from './context/Category'
+import Projects from './sections/Projects'
+import Contact from './sections/Contact'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Intro />
+      <CategoryContextProvider>
+        <About />
+      </CategoryContextProvider>
+      <Projects />
+      <Contact />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
