@@ -64,7 +64,7 @@ const ParticleBackground = () => {
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
-                width: 1,
+                width: 0.5,
               },
               collisions: {
                 enable: false,
@@ -72,9 +72,9 @@ const ParticleBackground = () => {
               move: {
                 direction: "none",
                 enable: true,
-                outMode: "bounce",
+                outMode: "out",
                 random: false,
-                speed: 2,
+                speed: 1,
                 straight: false,
               },
               number: {
@@ -82,7 +82,7 @@ const ParticleBackground = () => {
                   enable: true,
                   value_area: 800,
                 },
-                value: 120,
+                value: 80,
               },
               opacity: {
                 value: 0.7,
@@ -91,11 +91,11 @@ const ParticleBackground = () => {
                 type: "circle",
               },
               size: {
-                random: true,
-                value: 5,
+                random: false,
+                value: 2,
               },
             },
-            detectRetina: true,
+            detectRetina: false,
           }}
     />
     );
