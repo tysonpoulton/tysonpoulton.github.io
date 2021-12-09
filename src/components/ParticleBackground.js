@@ -25,7 +25,7 @@ const ParticleBackground = () => {
             },
             background: {
               color: {
-                value: "#070707",
+                value: "rgba(17, 24, 39)",
               },
             },
             fpsLimit: 60,
@@ -54,7 +54,7 @@ const ParticleBackground = () => {
                 color: "random",
                 distance: 150,
                 enable: true,
-                opacity: 0.7,
+                opacity: 0.85,
                 width: 1,
               },
               collisions: {
@@ -65,18 +65,14 @@ const ParticleBackground = () => {
                 enable: true,
                 outMode: "bounce",
                 random: false,
-                speed: 2,
+                speed: 1,
                 straight: false,
               },
               number: {
-                density: {
-                  enable: false,
-                  value_area: 800,
-                },
                 value: 120,
               },
               opacity: {
-                value: 0.7,
+                value: 0.85,
               },
               shape: {
                 type: "circle",
