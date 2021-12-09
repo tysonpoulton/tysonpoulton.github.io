@@ -28,7 +28,7 @@ const ParticleBackground = () => {
                 value: "#070707",
               },
             },
-            fpsLimit: 30,
+            fpsLimit: 60,
             interactivity: {
               events: {
                 onHover: {
@@ -39,7 +39,7 @@ const ParticleBackground = () => {
               },
               modes: {
                 grab: {
-                  distance: 80,
+                  distance: 120,
                   link_linked: {
                       opacity: 1,
                   },
