@@ -21,16 +21,16 @@ const Navbar = () => {
         <nav className="fixed w-full pt-5 pb-5 pr-10 z-10" style={{ background: navBackground, boxShadow: navShadow }}>
             <ul className="flex flex-row float-right text-2xl text-center font-semibold gap-5" style={{ color: navColor }}>
                 <li className="nav-item">
-                    <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={300}>Home</Link>
+                    <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={750}>Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={300}>About</Link>
+                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={750}>About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={300}>Projects</Link>
+                    <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={750}>Projects</Link>
                 </li>
                 <li className="nav-item">
-                    <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={300}>Contact</Link>
+                    <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={750}>Contact</Link>
                 </li>
             </ul>
         </nav>
