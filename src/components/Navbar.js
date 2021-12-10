@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from "react-scroll";
 
 
 const Navbar = () => {
@@ -21,16 +20,24 @@ const Navbar = () => {
         <nav className="fixed w-full pt-5 pb-5 pr-10 z-10" style={{ background: navBackground, boxShadow: navShadow }}>
             <ul className="flex flex-row float-right text-2xl text-center font-semibold gap-5" style={{ color: navColor }}>
                 <li className="nav-item">
-                    <Link to="home" smooth={true} offset={-70} duration={750}>Home</Link>
+                    <span onClick={() => {
+                            document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+                    }}>Home</span>
                 </li>
                 <li className="nav-item">
-                    <Link to="about" smooth={true} offset={-70} duration={750}>About</Link>
+                    <span onClick={() => {
+                            document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+                    }}>About</span>
                 </li>
                 <li className="nav-item">
-                    <Link to="projects" smooth={true} offset={-70} duration={750}>Projects</Link>
+                    <span onClick={() => {
+                            document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+                    }}>Projects</span>
                 </li>
                 <li className="nav-item">
-                    <Link to="contact" smooth={true} offset={-70} duration={750}>Contact</Link>
+                    <span onClick={() => {
+                        document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+                    }}>Contact</span>
                 </li>
             </ul>
         </nav>
