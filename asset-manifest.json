@@ -1,25 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.e4182ab3.chunk.css",
-    "main.js": "/static/js/main.a6618dba.chunk.js",
-    "main.js.map": "/static/js/main.a6618dba.chunk.js.map",
+    "main.js": "/static/js/main.31ed7cac.chunk.js",
+    "main.js.map": "/static/js/main.31ed7cac.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
-    "static/js/2.4830b14c.chunk.js": "/static/js/2.4830b14c.chunk.js",
-    "static/js/2.4830b14c.chunk.js.map": "/static/js/2.4830b14c.chunk.js.map",
+    "static/js/2.86e7095a.chunk.js": "/static/js/2.86e7095a.chunk.js",
+    "static/js/2.86e7095a.chunk.js.map": "/static/js/2.86e7095a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.e4182ab3.chunk.css.map": "/static/css/main.e4182ab3.chunk.css.map",
-    "static/js/2.4830b14c.chunk.js.LICENSE.txt": "/static/js/2.4830b14c.chunk.js.LICENSE.txt",
+    "static/js/2.86e7095a.chunk.js.LICENSE.txt": "/static/js/2.86e7095a.chunk.js.LICENSE.txt",
     "static/media/fireside-chat.webp": "/static/media/fireside-chat.881a33f0.webp",
     "static/media/image-gallery.webp": "/static/media/image-gallery.1a8b8b7b.webp",
-    "static/media/portfolio-site.webp": "/static/media/portfolio-site.039bad26.webp",
     "static/media/spotify-clone.webp": "/static/media/spotify-clone.6f88ee48.webp",
     "static/media/task-tracker.webp": "/static/media/task-tracker.b1de7abe.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
-    "static/js/2.4830b14c.chunk.js",
+    "static/js/2.86e7095a.chunk.js",
     "static/css/main.e4182ab3.chunk.css",
-    "static/js/main.a6618dba.chunk.js"
+    "static/js/main.31ed7cac.chunk.js"
   ]
 }
