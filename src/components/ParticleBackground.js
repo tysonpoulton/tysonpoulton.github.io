@@ -28,11 +28,11 @@ const ParticleBackground = () => {
                 value: "rgba(17, 24, 39)",
               },
             },
-            fpsLimit: 60,
+            fpsLimit: 30,
             interactivity: {
               events: {
                 onHover: {
-                  enable: true,
+                  enable: false,
                   mode: "grab", 
                 },
                 resize: true,
