@@ -33,6 +33,9 @@ const Intro = () => {
         }
     }, []);
 
+    window.addEventListener('load', () => {
+        setIsVisible('hidden');
+    })
 
     return (
         <section id="home">
