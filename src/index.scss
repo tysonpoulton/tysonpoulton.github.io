@@ -41,7 +41,10 @@ body {
 }
 
 .line-animation {
-    margin-left: 5%;
+    margin-left: 0;
+    @media screen and (max-width: 650px) {
+        margin-left: 5%;
+    }
 }
 
 [data-aos="width-expand"] {
