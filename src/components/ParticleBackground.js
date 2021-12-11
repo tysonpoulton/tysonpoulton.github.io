@@ -35,6 +35,10 @@ const ParticleBackground = () => {
                   enable: true,
                   mode: "grab", 
                 },
+                onClick: {
+                  enable: true,
+                  mode: "repulse",
+                },
                 resize: true,
               },
               modes: {
@@ -44,6 +48,10 @@ const ParticleBackground = () => {
                       opacity: 1,
                   },
                 },
+                repulse: {
+                  distance: 400,
+                  duration: .2,
+                }
               },
             },
             particles: {
