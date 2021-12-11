@@ -13,12 +13,10 @@ const Intro = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [isVisible, setIsVisible] = useState('visible');
 
-    const listenScroll = () => {
-        window.scrollY > 900 ? setIsVisible('hidden') : setIsVisible('visible');
-    }
-
     useEffect(() => {
-        window.addEventListener('scroll', listenScroll)
+        window.addEventListener('load', () => {
+            setIsVisible('hidden');
+        });
     }, []);
 
     useEffect(() => {
@@ -33,9 +31,7 @@ const Intro = () => {
         }
     }, []);
 
-    window.addEventListener('load', () => {
-        setIsVisible('hidden');
-    })
+    
 
     return (
         <section id="home">
