@@ -13,7 +13,7 @@ const About = () => {
                 <p className="text-left pt-6 mx-5">
                 Since beginning my journey in web development, I have learned and used many front end and back end technologies, but I'm most comfortable with Javascript. In my free time I enjoy spending time with friends and family, listening to music, and playing video games.
                 </p>
-                <div className="pt-10 border-black border-b-2" data-aos="width-expand" data-aos-duration="1000"/>
+                <div className="pt-10 border-black border-b-2 line-animation" data-aos="width-expand" data-aos-duration="1000"/>
                 <CategorySelect />
             </div>
         </section>

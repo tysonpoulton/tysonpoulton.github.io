@@ -40,11 +40,20 @@ body {
     background: rgba(17, 24, 39);
 }
 
+.line-animation {
+    margin-left: 5%;
+}
+
 [data-aos="width-expand"] {
     width: 0%;
     transition-property: width;
     &.aos-animate {
         width: 100%;
+    }
+    @media screen and (max-width: 650px) {
+        &.aos-animate {
+            width: 90%;
+        }
     }
 }
 
@@ -55,7 +64,7 @@ body {
     font-size: 1.25rem;
     @media screen and (max-width: 650px) {
         height: 1000px;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 }
 
