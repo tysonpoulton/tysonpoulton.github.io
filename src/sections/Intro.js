@@ -11,6 +11,15 @@ const MobileBackground = () => {
 
 const Intro = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [isVisible, setIsVisible] = useState('visible');
+
+    const listenScroll = () => {
+        window.scrollY > 900 ? setIsVisible('hidden') : setIsVisible('visible');
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', listenScroll)
+    }, []);
 
     useEffect(() => {
         const handleResize = () => {
@@ -28,7 +37,7 @@ const Intro = () => {
     return (
         <section id="home">
             <Navbar />
-            {windowWidth >= 720 ? <ParticleBackground /> : <MobileBackground />}
+            {windowWidth >= 720 ? <ParticleBackground style={{ visibility: isVisible }} /> : <MobileBackground />}
             <Info />
         </section>
     );
