@@ -17,7 +17,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="fixed w-full pt-5 pb-5 pr-10 z-10" style={{ background: navBackground, boxShadow: navShadow }}>
+        <nav className="nav-mobile fixed w-full pt-5 pb-5 pr-10 z-10" style={{ background: navBackground, boxShadow: navShadow }}>
             <ul className="flex flex-row float-right text-2xl text-center font-semibold gap-5" style={{ color: navColor }}>
                 <li className="nav-item">
                     <span onClick={() => {

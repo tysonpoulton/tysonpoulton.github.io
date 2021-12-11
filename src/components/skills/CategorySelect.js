@@ -33,7 +33,7 @@ const Technologies = ({ categoryTransition }) => {
                 unmountOnExit
                 mountOnEnter
             >
-                <ul className="flex flex-row justify-center justify-evenly">  
+                <ul className="technologies">  
                     {skills.map((skill, id) => (
                         <Skill key={id} {...skill}/>
                     ))}
@@ -50,7 +50,7 @@ const CategorySelect = () => {
 
     return (
         <div>
-            <div className="flex flex-row justify-center mt-20 text-4xl gap-20 mb-20 font-semibold" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000"  data-aos-mirror="true">
+            <div className="category-container flex flex-row justify-center mt-20 mb-20 font-semibold" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000"  data-aos-mirror="true">
                 {CATEGORIES.map((cat) => (
                     <h2 className={`cursor-pointer ${ category === cat ? 'underline' : '' }`} 
                         key={cat} 

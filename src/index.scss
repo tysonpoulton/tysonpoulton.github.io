@@ -12,6 +12,13 @@ body {
 }
 .app {
     font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+.nav-mobile {
+    @media screen and (max-width: 650px) {
+        display: none;
+    }
 }
 
 .nav-item {
@@ -25,6 +32,14 @@ body {
     height: 100%;
 }
 
+.mobile-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    background: rgba(17, 24, 39);
+}
+
 [data-aos="width-expand"] {
     width: 0%;
     transition-property: width;
@@ -36,14 +51,43 @@ body {
 .about-container {
     height: 800px;
     background: #fff;
+    font-size: 1.25rem;
+    @media screen and (max-width: 650px) {
+        height: 1000px;
+    }
 }
 
 .about-content {
-    width: 53%;
+    width: 1200px;
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+.category-container {
+    gap: 5rem;
+    font-size: 2.25rem;
+    @media screen and (max-width: 650px) {
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+.technologies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    @media screen and (max-width: 650px) {
+        flex-wrap: wrap;
+    }
 }
 
 .project-container {
     height: 800px;
+    @media screen and (max-width: 650px) {
+        height: 1300px;
+    }
 }
 
 .project-card {
@@ -55,6 +99,9 @@ body {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     will-change: box-shadow, border;
+    @media screen and (max-width: 650px) {
+        max-width: 300px;
+    }
 }
 
 .project-card:hover {
