@@ -28,7 +28,7 @@ const Intro = () => {
     return (
         <section id="home">
             <Navbar />
-            {windowWidth >= 650 ? <ParticleBackground /> : <MobileBackground />}
+            {windowWidth >= 720 ? <ParticleBackground /> : <MobileBackground />}
             <Info />
         </section>
     );
