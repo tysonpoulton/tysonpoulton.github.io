@@ -51,9 +51,11 @@ body {
 .about-container {
     height: 800px;
     background: #fff;
+    padding-top: 5rem;
     font-size: 1.25rem;
     @media screen and (max-width: 650px) {
         height: 1000px;
+        padding-top: 2rem;
     }
 }
 
