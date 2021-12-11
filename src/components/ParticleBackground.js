@@ -28,7 +28,7 @@ const ParticleBackground = () => {
                 value: "rgba(17, 24, 39)",
               },
             },
-            fpsLimit: 30,
+            fpsLimit: 60,
             interactivity: {
               events: {
                 onHover: {
