@@ -32,7 +32,7 @@ const ParticleBackground = () => {
             interactivity: {
               events: {
                 onHover: {
-                  enable: false,
+                  enable: true,
                   mode: "grab", 
                 },
                 resize: true,
