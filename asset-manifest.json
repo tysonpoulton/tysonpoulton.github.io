@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.72afd4c0.chunk.css",
-    "main.js": "/static/js/main.60897416.chunk.js",
-    "main.js.map": "/static/js/main.60897416.chunk.js.map",
+    "main.css": "/static/css/main.2d65469b.chunk.css",
+    "main.js": "/static/js/main.9565049c.chunk.js",
+    "main.js.map": "/static/js/main.9565049c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.e74d5a4e.chunk.js": "/static/js/2.e74d5a4e.chunk.js",
     "static/js/2.e74d5a4e.chunk.js.map": "/static/js/2.e74d5a4e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.72afd4c0.chunk.css.map": "/static/css/main.72afd4c0.chunk.css.map",
+    "static/css/main.2d65469b.chunk.css.map": "/static/css/main.2d65469b.chunk.css.map",
     "static/js/2.e74d5a4e.chunk.js.LICENSE.txt": "/static/js/2.e74d5a4e.chunk.js.LICENSE.txt",
     "static/media/fireside-chat.webp": "/static/media/fireside-chat.881a33f0.webp",
     "static/media/image-gallery.webp": "/static/media/image-gallery.1a8b8b7b.webp",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.e74d5a4e.chunk.js",
-    "static/css/main.72afd4c0.chunk.css",
-    "static/js/main.60897416.chunk.js"
+    "static/css/main.2d65469b.chunk.css",
+    "static/js/main.9565049c.chunk.js"
   ]
 }
