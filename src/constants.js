@@ -1,22 +1,23 @@
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import PDF from "./resume.pdf"
 
 export const SOCIAL_ITEMS = [
     {
         icon: faLinkedin,
-        dest: "https://www.linkedin.com/in/tyson-poulton/"
+        dest: "https://www.linkedin.com/in/tyson-poulton/",
     },
     {
         icon: faGithub,
-        dest: "https://github.com/tysonpoulton"
+        dest: "https://github.com/tysonpoulton",
     },
     {
         icon: faEnvelope,
-        dest: "mailto:ty.poulton@gmail.com"
+        dest: "mailto:ty.poulton@gmail.com",
     },
     {
         icon: faFileAlt,
-        dest: "PDF"
+        dest: PDF,
     }
 ];
 
